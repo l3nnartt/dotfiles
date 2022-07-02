@@ -11,6 +11,10 @@ alias "rm -rf /"="echo \"read mail really fast\""
 alias "pls"="sudo \$(history | tail -n1 | cut --complement -d' ' -f1)"
 alias "copy"="xsel -ib"
 alias "vim"="nvim"
+alias "node1"="ssh root@46.38.243.138 -L 6443:46.38.243.138:6443"
+alias "node2"="ssh root@193.26.157.104 -L 6443:193.26.157.104:6443"
+alias "node3"="ssh root@89.58.31.131 -L 6443:89.58.31.131:6443"
+alias "devnet"="ssh root@devnet-bigmac.timolia.de"
 
 man() {
     LESS_TERMCAP_md=$'\e[01;31m' \
