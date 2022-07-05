@@ -8,7 +8,6 @@
 	helper = store
 [pull]
 	rebase = true
-	ff = only
 [gpg]
 	program = gpg2
 [commit]
